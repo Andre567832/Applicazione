@@ -1,0 +1,107 @@
+//!Div
+.divPrincipale {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+@keyframes giuSu {
+  0% {
+    background-color: #0066ff;
+    left: 0px;
+    top: 0px;
+    
+  }
+  25% {
+    background-color: #00ffff;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: #00ff00;
+    left: 200px;
+    top: 200px;
+    animation-direction: reverse;
+  }
+  75% {
+    background-color: #ff3300;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: blue;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+//!NOME
+//TODO (1=come abbreviare)
+.lettere {
+  font: 200px italic;
+  color: white;
+}
+.a {
+  background-color: white;
+  animation: a both 1.5s;
+  animation-delay: 2s;
+}
+.n {
+  background-color: white;
+  animation: a both 2s;
+  animation-delay: 2.3s;
+}
+.d {
+  background-color: white;
+  animation: a both 3s;
+  animation-delay: 2.5s;
+}
+.r {
+  background-color: white;
+  animation: a both 4s;
+  animation-delay: 2.7s;
+}
+.e {
+  background-color: white;
+  animation: a both 5s;
+  animation-delay: 2.9s;
+}
+.A {
+  background-color: white;
+  animation: a both 6s;
+  animation-delay: 3.1s;
+}
+.punto {
+  color: white;
+  animation: punto both;
+  animation-delay: 8.5s;
+}
+@keyframes punto {
+  0% {
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes a {
+  0% {
+    color: white; 
+  }
+  25% {
+    color: #00ff00;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color: #6f00ff;
+  }
+  100% {
+    color: black;
+  }
+}

@@ -1,0 +1,19 @@
+//**
+LE ROTTE
+{path:"home", component: HomeComponent},     AppRoutingModule
+<router-outlet></router-outlet>              appcomponent
+constructor(private router: Router) { }      il costruttore
+this.router.navigate(['home']);              nuova pagina
+ ------------------------------------------------------------------
+NG_MODEL
+[(ngModel)]=email                           per prendere e ricevere dati
+imports: [                                  app.module
+BrowserModule,
+AppRoutingModule,
+FormsModule                                 per poter utilizare la direttiva
+],
+(se usi <form></form> non funziona)
+-------------------------------------------------------------------
+CSS ANIMAZIONI
+animation-iteration-count: infinite; //! permette di ripetere l'animazione
+animation-fill-mode: both; //!consente di impostare i valori di @keyframe
